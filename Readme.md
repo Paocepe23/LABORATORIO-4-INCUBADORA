@@ -65,27 +65,6 @@ Vout = (R2/R1)·(V_sensor − V_ref), con R1=R3=1kΩ, R2=R4=120kΩ, V_ref=2,53V 
 
 El circuito de medición de peso utiliza una celda de carga que transforma la fuerza aplicada en una señal eléctrica. Esta señal se amplifica y procesa para obtener el peso, que se mostraría en una pantalla LCD. Su precisión dependería de una calibración con masas conocidas.
 
- ## 5. Conclusiones
-
-La práctica permitió desarrollar un modelo a escala de una incubadora neonatal, integrando la construcción de una estructura con cúpula transparente y una base independiente destinada a alojar los componentes electrónicos. El diseño contempló un sistema de control de temperatura mediante un termistor y comparadores, así como un sistema de medición de peso basado en una celda de carga. Sin embargo, aunque la estructura física se construyó satisfactoriamente, los circuitos electrónicos no llegaron a implementarse, por lo que no fue posible comprobar experimentalmente la precisión del control de temperatura ni la medición del peso. Esto evidencia la importancia de integrar y validar los sistemas electrónicos para verificar el funcionamiento esperado del prototipo. Como siguiente paso, se propone implementar los circuitos diseñados, realizar pruebas de temperatura y calibrar la celda de carga con masas conocidas, con el fin de evaluar el desempeño del sistema e identificar posibles mejoras en su funcionamiento y confiabilidad.
-
----
-
-## 6. Preguntas para la discusión
-
-*1. ¿Qué otras variables (y por qué) además de las aquí mencionadas son críticas en el monitoreo neonatal?*
-
-La humedad relativa (afecta la pérdida de calor por evaporación en piel inmadura), la saturación de oxígeno (SpO₂), y el nivel de ruido/luz dentro de la incubadora (afectan el desarrollo neurológico del prematuro).
-
-*2. ¿Qué haría falta para convertir el sistema desarrollado en una incubadora neonatal real?*
-
-Certificación médica (IEC 60601-2-19), sensores redundantes y de grado médico, alarmas audibles/visuales ante fallas, control de humedad, filtrado HEPA del aire, materiales biocompatibles y pruebas de seguridad eléctrica.
-
-*3. ¿Qué semejanzas hay entre una incubadora neonatal y una servo-cuna?*
-
-Ambas regulan la temperatura del neonato mediante retroalimentación con un sensor de temperatura, pero la servo-cuna generalmente calienta por contacto/radiación (lámpara radiante abierta) mientras que la incubadora lo hace por convección en un ambiente cerrado.
-
----
 
 ## 3. Parte B — Construcción del modelo a escala
 
@@ -135,4 +114,25 @@ Dado que el circuito no se implementó físicamente, el análisis se basa en los
 
 **Calibración:** se realiza con al menos 3 pesos patrón conocidos, ajustando PENDIENTE y OFFSET por regresión lineal (igual metodología usada en la práctica de celda de carga del curso de Modelos de Sistemas Biológicos).
 
+ ## 5. Conclusiones
+
+La práctica permitió desarrollar un modelo a escala de una incubadora neonatal, integrando la construcción de una estructura con cúpula transparente y una base independiente destinada a alojar los componentes electrónicos. El diseño contempló un sistema de control de temperatura mediante un termistor y comparadores, así como un sistema de medición de peso basado en una celda de carga. Sin embargo, aunque la estructura física se construyó satisfactoriamente, los circuitos electrónicos no llegaron a implementarse, por lo que no fue posible comprobar experimentalmente la precisión del control de temperatura ni la medición del peso. Esto evidencia la importancia de integrar y validar los sistemas electrónicos para verificar el funcionamiento esperado del prototipo. Como siguiente paso, se propone implementar los circuitos diseñados, realizar pruebas de temperatura y calibrar la celda de carga con masas conocidas, con el fin de evaluar el desempeño del sistema e identificar posibles mejoras en su funcionamiento y confiabilidad.
+
+---
+
+## 6. Preguntas para la discusión
+
+*1. ¿Qué otras variables (y por qué) además de las aquí mencionadas son críticas en el monitoreo neonatal?*
+
+La humedad relativa (afecta la pérdida de calor por evaporación en piel inmadura), la saturación de oxígeno (SpO₂), y el nivel de ruido/luz dentro de la incubadora (afectan el desarrollo neurológico del prematuro).
+
+*2. ¿Qué haría falta para convertir el sistema desarrollado en una incubadora neonatal real?*
+
+Certificación médica (IEC 60601-2-19), sensores redundantes y de grado médico, alarmas audibles/visuales ante fallas, control de humedad, filtrado HEPA del aire, materiales biocompatibles y pruebas de seguridad eléctrica.
+
+*3. ¿Qué semejanzas hay entre una incubadora neonatal y una servo-cuna?*
+
+Ambas regulan la temperatura del neonato mediante retroalimentación con un sensor de temperatura, pero la servo-cuna generalmente calienta por contacto/radiación (lámpara radiante abierta) mientras que la incubadora lo hace por convección en un ambiente cerrado.
+
+---
 
