@@ -70,12 +70,15 @@ La parte estructural de la incubadora a escala se logró construir cumpliendo el
 ## 6. Preguntas para la discusión
 
 *1. ¿Qué otras variables (y por qué) además de las aquí mencionadas son críticas en el monitoreo neonatal?*
+
 La humedad relativa (afecta la pérdida de calor por evaporación en piel inmadura), la saturación de oxígeno (SpO₂), y el nivel de ruido/luz dentro de la incubadora (afectan el desarrollo neurológico del prematuro).
 
 *2. ¿Qué haría falta para convertir el sistema desarrollado en una incubadora neonatal real?*
+
 Certificación médica (IEC 60601-2-19), sensores redundantes y de grado médico, alarmas audibles/visuales ante fallas, control de humedad, filtrado HEPA del aire, materiales biocompatibles y pruebas de seguridad eléctrica.
 
 *3. ¿Qué semejanzas hay entre una incubadora neonatal y una servo-cuna?*
+
 Ambas regulan la temperatura del neonato mediante retroalimentación con un sensor de temperatura, pero la servo-cuna generalmente calienta por contacto/radiación (lámpara radiante abierta) mientras que la incubadora lo hace por convección en un ambiente cerrado.
 
 
