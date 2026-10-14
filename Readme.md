@@ -3,7 +3,7 @@
 
 **Docente:** Erick Javier Argüello Prada
 
-> **Nota de autoría:** la construcción física del modelo a escala (carcasa, base y cúpula) fue realizada. El circuito electrónico de control de temperatura y medición de peso no llegó a implementarse físicamente por parte del equipo; este informe documenta el diseño, los cálculos y el código que se habrían utilizado para completar esas dos funciones, de modo que la lógica completa del sistema quede documentada para el repositorio del laboratorío---
+> **Nota de autoría:** la construcción física del modelo a escala (carcasa, base y cúpula) fue realizada. El circuito electrónico de control de temperatura y medición de peso no llegó a implementarse físicamente por parte del equipo; este informe documenta el diseño, los cálculos y el código que se habrían utilizado para completar esas dos funciones, de modo que la lógica completa del sistema quede documentada para el repositorio del laboratorío.
 
 ## 1. Introducción
 
