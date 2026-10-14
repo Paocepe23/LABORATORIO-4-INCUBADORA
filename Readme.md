@@ -9,6 +9,8 @@
 
 Una incubadora neonatal debe mantener un ambiente térmico controlado (36°C–37,5°C) y permitir el monitoreo del peso del neonato. Este documento describe el diseño completo del sistema: identificación de partes, circuito de control de temperatura en lazo cerrado, sistema de medición de peso, y la construcción física del modelo a escala.
 
+Además de su función clínica, el diseño de una incubadora neonatal representa una aplicación práctica de los principios de la instrumentación biomédica, la electrónica y los sistemas de control. La integración de sensores, circuitos de acondicionamiento de señal y dispositivos de visualización permite comprender cómo las variables físicas pueden convertirse en información útil para el monitoreo. En esta práctica, la construcción del modelo a escala y el diseño teórico de los sistemas de control de temperatura y medición de peso permiten relacionar los conceptos estudiados en el laboratorio con las necesidades de los equipos médicos reales. Asimismo, la identificación de las limitaciones del prototipo permite reconocer la importancia de la calibración, la validación experimental y las medidas de seguridad necesarias antes de considerar cualquier dispositivo para una aplicación clínica.
+
 ---
 
 ## 2. Parte A — Diseño y simulación
