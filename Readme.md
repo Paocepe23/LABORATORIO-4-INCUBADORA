@@ -61,6 +61,22 @@ Vout = (R2/R1)·(V_sensor − V_ref), con R1=R3=1kΩ, R2=R4=120kΩ, V_ref=2,53V 
 
 **Acondicionamiento:** la señal diferencial del puente (del orden de mV) se amplifica con un amplificador de instrumentación basado en LM741 (ganancia ajustable según el rango de peso del neonato, típicamente 1–5 kg) antes de entrar al conversor análogo-digital.
 
+ ## 5. Conclusiones
+
+La parte estructural de la incubadora a escala se logró construir cumpliendo el principio de cúpula transparente con visibilidad al interior y base independiente para alojar la electrónica, replicando el concepto de las incubadoras reales. Sin embargo, al no implementarse el circuito de control, no fue posible validar experimentalmente la factibilidad de controlar con precisión variables como la temperatura y el peso — esta práctica demuestra que, incluso con un diseño teórico completo y calculado, la integración electrónica real es indispensable para cerrar el lazo de control y confirmar el comportamiento esperado del sistema.
+
+---
+
+## 6. Preguntas para la discusión
+
+*1. ¿Qué otras variables (y por qué) además de las aquí mencionadas son críticas en el monitoreo neonatal?*
+La humedad relativa (afecta la pérdida de calor por evaporación en piel inmadura), la saturación de oxígeno (SpO₂), y el nivel de ruido/luz dentro de la incubadora (afectan el desarrollo neurológico del prematuro).
+
+*2. ¿Qué haría falta para convertir el sistema desarrollado en una incubadora neonatal real?*
+Certificación médica (IEC 60601-2-19), sensores redundantes y de grado médico, alarmas audibles/visuales ante fallas, control de humedad, filtrado HEPA del aire, materiales biocompatibles y pruebas de seguridad eléctrica.
+
+*3. ¿Qué semejanzas hay entre una incubadora neonatal y una servo-cuna?*
+Ambas regulan la temperatura del neonato mediante retroalimentación con un sensor de temperatura, pero la servo-cuna generalmente calienta por contacto/radiación (lámpara radiante abierta) mientras que la incubadora lo hace por convección en un ambiente cerrado.
 
 
 
