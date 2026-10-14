@@ -137,7 +137,7 @@ Dado que el circuito no se implementó físicamente, el análisis se basa en los
 - El sistema de peso reutiliza una metodología de calibración ya validada en la práctica de celda de carga del curso de Modelos de Sistemas Biológicos, por lo que se espera una linealidad similar (error esperado <5% con calibración de 3 puntos).
 - No fue posible contrastar estos valores con mediciones reales ni con un patrón de peso conocido, dado que el circuito no se ensambló.
 
-
+En general, los resultados muestran que se logró desarrollar la estructura física del modelo y documentar el diseño teórico de los sistemas electrónicos. La principal limitación fue la ausencia de pruebas experimentales, que habrían permitido verificar los cálculos y determinar el desempeño real de los circuitos. Como trabajo futuro, se propone implementar ambos sistemas, calibrar los sensores y evaluar su funcionamiento para identificar posibles mejoras en la precisión y confiabilidad del prototipo.
 
 
 **Calibración:** se realiza con al menos 3 pesos patrón conocidos, ajustando PENDIENTE y OFFSET por regresión lineal (igual metodología usada en la práctica de celda de carga del curso de Modelos de Sistemas Biológicos).
