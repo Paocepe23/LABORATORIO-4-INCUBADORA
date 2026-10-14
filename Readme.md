@@ -103,7 +103,28 @@ El circuito de medición de peso utiliza una celda de carga que transforma la fu
 | Componentes electrónicos (no implementados) | $ |
 | **Total estimado** | $ |
 
-### 3.4 Comparación con sistemas comerciales
+### 3.4 Montaje
+
+#### Proceso 
+
+<img width="500" height="500" alt="proceso" src="https://github.com/user-attachments/assets/0de8f926-89d8-4efd-858f-44753efe3230" />
+#### Ensamble
+<img width="500" height="500" alt="ensa,ble" src="https://github.com/user-attachments/assets/18e89aae-397e-49b3-9f8d-ef7cfcfd9de7" />
+
+#### Retoques
+
+
+#### Abierto/Cerrado
+<img width="500" height="500" alt="abierto" src="https://github.com/user-attachments/assets/84b9b0f9-bba5-4fb1-8a68-f97b04a4c9f8" />
+<img width="500" height="500" alt="cerrado" src="https://github.com/user-attachments/assets/754045cf-22bb-4a51-bf46-6c7696e06373" />
+
+
+
+#### Resultado
+<img width="500" height="500" alt="resultado" src="https://github.com/user-attachments/assets/c7240a15-199a-4c90-8068-395c28e14966" />
+
+
+### 3.5 Comparación con sistemas comerciales
 
 Sistemas comerciales como los de **Dräger**, **Instrumentalia S.A.S.** y **LEEX Medical** ofrecen control de temperatura de alta precisión (±0,1–0,2°C), alarmas redundantes, monitoreo de humedad y peso integrado, y certificaciones médicas (IEC 60601). El prototipo desarrollado en esta práctica tiene fines exclusivamente educativos: no cuenta con las certificaciones, redundancias de seguridad, ni la precisión de un dispositivo médico real, pero permite comprender los principios de control y acondicionamiento de señales involucrados.
 
