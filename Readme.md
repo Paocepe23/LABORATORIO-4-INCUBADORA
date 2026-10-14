@@ -30,6 +30,8 @@ Además de su función clínica, el diseño de una incubadora neonatal represent
 
 **Esquema de bloques:** Termistor (divisor de voltaje) → Amplificador diferencial LM741 → Ventana comparadora (2× LM741) → LEDs + actuador
 
+<img width="253" height="198" alt="termistor" src="https://github.com/user-attachments/assets/97aa8032-4951-45d4-a405-290c38c579aa" />
+
 **Sensado:** termistor NTC 10kΩ B3950 en divisor de voltaje (Vcc=5V, R_fija=6,2kΩ):
 - A 36°C → V ≈ 2,49 V
 - A 37,5°C → V ≈ 2,57 V
