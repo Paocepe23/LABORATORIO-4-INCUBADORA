@@ -63,7 +63,7 @@ Vout = (R2/R1)·(V_sensor − V_ref), con R1=R3=1kΩ, R2=R4=120kΩ, V_ref=2,53V 
 
 **Esquema de bloques:** Celda de carga (puente de Wheatstone) → Amplificador de instrumentación (LM741) → Microcontrolador (ADC) → Display LCD 16×2
 
-<img width="128" height="1024" alt="LCD-I2c-1024x1024" src="https://github.com/user-attachments/assets/3072154f-af93-4592-bb35-2c885d8cfcf2" />
+<img width="253" height="198" alt="LCD-I2c-1024x1024" src="https://github.com/user-attachments/assets/3072154f-af93-4592-bb35-2c885d8cfcf2" />
 
 **Acondicionamiento:** la señal diferencial del puente (del orden de mV) se amplifica con un amplificador de instrumentación basado en LM741 (ganancia ajustable según el rango de peso del neonato, típicamente 1–5 kg) antes de entrar al conversor análogo-digital.
 
