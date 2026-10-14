@@ -108,17 +108,18 @@ El circuito de medición de peso utiliza una celda de carga que transforma la fu
 #### Proceso 
 
 <img width="500" height="500" alt="proceso" src="https://github.com/user-attachments/assets/0de8f926-89d8-4efd-858f-44753efe3230" />
+
 #### Ensamble
+
 <img width="500" height="500" alt="ensa,ble" src="https://github.com/user-attachments/assets/18e89aae-397e-49b3-9f8d-ef7cfcfd9de7" />
 
 #### Retoques
 
+<img width="500" height="500" alt="ret" src="https://github.com/user-attachments/assets/35dd8456-91a3-4751-973e-b403625a40e4" />
 
 #### Abierto/Cerrado
 <img width="500" height="500" alt="abierto" src="https://github.com/user-attachments/assets/84b9b0f9-bba5-4fb1-8a68-f97b04a4c9f8" />
 <img width="500" height="500" alt="cerrado" src="https://github.com/user-attachments/assets/754045cf-22bb-4a51-bf46-6c7696e06373" />
-
-
 
 #### Resultado
 <img width="500" height="500" alt="resultado" src="https://github.com/user-attachments/assets/c7240a15-199a-4c90-8068-395c28e14966" />
