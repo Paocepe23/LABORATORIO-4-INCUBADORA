@@ -63,6 +63,8 @@ Vout = (R2/R1)·(V_sensor − V_ref), con R1=R3=1kΩ, R2=R4=120kΩ, V_ref=2,53V 
 
 **Acondicionamiento:** la señal diferencial del puente (del orden de mV) se amplifica con un amplificador de instrumentación basado en LM741 (ganancia ajustable según el rango de peso del neonato, típicamente 1–5 kg) antes de entrar al conversor análogo-digital.
 
+El circuito de medición de peso utiliza una celda de carga que transforma la fuerza aplicada en una señal eléctrica. Esta señal se amplifica y procesa para obtener el peso, que se mostraría en una pantalla LCD. Su precisión dependería de una calibración con masas conocidas.
+
  ## 5. Conclusiones
 
 La parte estructural de la incubadora a escala se logró construir cumpliendo el principio de cúpula transparente con visibilidad al interior y base independiente para alojar la electrónica, replicando el concepto de las incubadoras reales. Sin embargo, al no implementarse el circuito de control, no fue posible validar experimentalmente la factibilidad de controlar con precisión variables como la temperatura y el peso — esta práctica demuestra que, incluso con un diseño teórico completo y calculado, la integración electrónica real es indispensable para cerrar el lazo de control y confirmar el comportamiento esperado del sistema.
