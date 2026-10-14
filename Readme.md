@@ -81,6 +81,52 @@ Certificación médica (IEC 60601-2-19), sensores redundantes y de grado médico
 
 Ambas regulan la temperatura del neonato mediante retroalimentación con un sensor de temperatura, pero la servo-cuna generalmente calienta por contacto/radiación (lámpara radiante abierta) mientras que la incubadora lo hace por convección en un ambiente cerrado.
 
+---
+
+## 3. Parte B — Construcción del modelo a escala
+
+### 3.1 Descripción física (realizada)
+
+- **Base/estructura:** madera reciclada (melamina), ensamblada en forma de cajón sobre 4 patas de madera con ruedas giratorias (tipo patas de silla), para dar movilidad al modelo.
+- **Compartimento del circuito:** cajón interno en la base, diseñado para alojar la electrónica (hueco/cajón bajo la tapa superior, ver plano "Tabla 1/2/3").
+- **Cúpula:** realizada en papel acetato transparente sobre un armazón de palitos de balso, simulando la cubierta transparente donde se ubicaría el neonato — versión artesanal del concepto de cúpula de acrílico planteado originalmente.
+- **Rejillas:** diseñadas rejillas de acceso para manos (laterales) y una rejilla superior, según el boceto de planeación.
+
+### 3.2 Materiales utilizados (realmente comprados/usados)
+
+| Material | Origen |
+|---|---|
+| Tableros de melamina (3 piezas, medidas ~48×24cm y 44×20cm) | Reciclado/comprado |
+| Patas de madera | Compradas |
+| Ruedas giratorias tipo pata de silla (4) | Compradas |
+| Papel acetato | Comprado |
+| Palitos de balso | Comprados |
+| Puntillas/grapas para ensamble | Compradas |
+
+### 3.3 Costos estimados
+
+*(completar con los valores reales de compra — placeholder para la tabla final del informe)*
+
+| Ítem | Costo estimado |
+|---|---|
+| Estructura de madera + ruedas | $ |
+| Acetato + balso (cúpula) | $ |
+| Componentes electrónicos (no implementados) | $ |
+| **Total estimado** | $ |
+
+### 3.4 Comparación con sistemas comerciales
+
+Sistemas comerciales como los de **Dräger**, **Instrumentalia S.A.S.** y **LEEX Medical** ofrecen control de temperatura de alta precisión (±0,1–0,2°C), alarmas redundantes, monitoreo de humedad y peso integrado, y certificaciones médicas (IEC 60601). El prototipo desarrollado en esta práctica tiene fines exclusivamente educativos: no cuenta con las certificaciones, redundancias de seguridad, ni la precisión de un dispositivo médico real, pero permite comprender los principios de control y acondicionamiento de señales involucrados.
+
+
+## 4. Análisis de resultados
+
+Dado que el circuito no se implementó físicamente, el análisis se basa en los valores de diseño calculados:
+- El sistema de control de temperatura fue diseñado para mantener el rango 36°C–37,5°C mediante una ventana comparadora con holgura de ±4,8V tras la amplificación, lo que da margen suficiente ante ruido eléctrico.
+- El sistema de peso reutiliza una metodología de calibración ya validada en la práctica de celda de carga del curso de Modelos de Sistemas Biológicos, por lo que se espera una linealidad similar (error esperado <5% con calibración de 3 puntos).
+- No fue posible contrastar estos valores con mediciones reales ni con un patrón de peso conocido, dado que el circuito no se ensambló.
+
+
 
 
 **Calibración:** se realiza con al menos 3 pesos patrón conocidos, ajustando PENDIENTE y OFFSET por regresión lineal (igual metodología usada en la práctica de celda de carga del curso de Modelos de Sistemas Biológicos).
