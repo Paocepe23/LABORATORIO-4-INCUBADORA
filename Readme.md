@@ -94,14 +94,14 @@ El circuito de medición de peso utiliza una celda de carga que transforma la fu
 
 ### 3.3 Costos estimados
 
-*(completar con los valores reales de compra — placeholder para la tabla final del informe)*
+
 
 | Ítem | Costo estimado |
 |---|---|
-| Estructura de madera + ruedas | $ |
-| Acetato + balso (cúpula) | $ |
-| Componentes electrónicos (no implementados) | $ |
-| **Total estimado** | $ |
+| Estructura de madera + ruedas | $60.000 – $80.000 |
+| Acetato + balso (cúpula) | $35.000 – $45.000 |
+| Componentes electrónicos (no implementados) | $30.000 - $45.000 |
+| **Total estimado** | $125.000 – $170.000 |
 
 ### 3.4 Montaje
 
